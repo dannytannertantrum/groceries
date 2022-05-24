@@ -1,0 +1,41 @@
+.clearListContainer {
+  margin: 100px 0 20px;
+}
+
+.clearList {
+  text-align: right;
+  color: rgb(22, 90, 32);
+  border-bottom: 1px solid rgb(22, 90, 32);
+}
+
+.clearList:hover {
+  border-bottom: 1px solid rgb(55, 255, 0);
+  color: rgb(55, 255, 0);
+}
+
+.clearListOptions {
+  display: flex;
+}
+
+.clearListOptions button {
+  padding: 14px;
+  border-radius: 8px;
+  color: white;
+}
+
+.clearListOptions button:first-child {
+  background-color: rgb(46, 53, 47);
+  margin-right: 20px;
+}
+
+.clearListOptions button:first-child:hover {
+  background-color: rgb(32, 94, 39);
+}
+
+.clearListOptions button:last-child {
+  background-color: rgb(143, 0, 126);
+}
+
+.clearListOptions button:last-child:hover {
+  background-color: rgb(197, 0, 174);
+}

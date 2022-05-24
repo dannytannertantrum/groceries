@@ -1,0 +1,62 @@
+button, span {
+  background: none;
+  border: 0 none;
+  cursor: pointer;
+  flex-grow: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container button:not(.remove),
+.container input,
+.container span {
+  margin-right: 14px;
+}
+
+.container button {
+  display: inline-flex;
+}
+
+.error {
+  color: rgb(255, 0, 225);
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+img {
+  border-radius: 4px;
+  cursor: pointer;
+  width: 25px;
+}
+
+input {
+  border-radius: 8px;
+  flex-grow: 1;
+  padding: 14px;
+  border: 0 none;
+  background-color: rgb(46, 53, 47);
+  color: rgb(55, 255, 0);
+}
+
+input.purchased {
+  text-decoration: line-through;
+}
+
+.remove {
+  font-size: 36px;
+  color: rgb(255, 0, 225);
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 20px;
+}

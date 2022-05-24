@@ -1,0 +1,19 @@
+.searchBar {
+  background: transparent;
+  /* width: 100%; */
+  flex-grow: 1;
+  border-bottom: 1px solid rgb(44, 68, 44);
+  border-radius: 0;
+}
+
+.searchBarContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.searchIcon {
+  font-size: 20px;
+  margin-right: 14px;
+  padding-bottom: 8px;
+}

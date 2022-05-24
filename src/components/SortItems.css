@@ -1,0 +1,26 @@
+.sorting {
+  margin-bottom: 30px;
+}
+
+.sorting button:first-child {
+  min-width: 150px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.sorting img {
+  vertical-align: top;
+  margin-left: 20px;
+  width: 16px;
+}
+
+.sorting button {
+  color:rgb(0, 229, 255);
+  text-align: left;
+}
+
+.sorting button:hover,
+.sorting button.active {
+  color:rgb(0, 229, 255);
+  font-weight: 700;
+}

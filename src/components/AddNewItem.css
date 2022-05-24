@@ -1,0 +1,14 @@
+.add {
+  padding: 14px;
+  background-color: rgb(46, 53, 47);
+  color: white;
+  border-radius: 8px;
+}
+
+.add-margin {
+  margin-left: 35px;
+}
+
+.add:hover {
+  background-color: rgb(32, 94, 39);
+}
